@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+}
+body { 
+    display: flex; height: 100vh;
+    margin-top: 100px;
+}
+#calculator {
+    padding: 20px;
+    background: silver;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+#display, button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+    font: bold 3em Impact;
+    outline: none;
+}
+#display {
+    background-color: white;
+    color: black;
+    height: 80px;
+}
+.double {
+    width: 225px;
+}
+#display {
+    width: 450px;
+    text-align: right;
+}
